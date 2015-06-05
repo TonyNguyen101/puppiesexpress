@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h1>The dog you want:</h1>
+
+<% puppies.forEach(function(puppy){ %>
+	<% if(puppy.puppyId === idNumber) { %>
+	Name: <%= puppy.newPuppyName %>,
+	Age: <%= puppy.age %>,
+	Id: <%= puppy.puppyId %>
+	<% } %>
+<% }) %>
+
+
+	
+</body>
+</html>
